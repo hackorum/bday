@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #D9F7F7;
+}
+
+h1 {
+  margin-top: 10px;
+  text-align: center;
+  color: rgb(127, 127, 207);
+}
+
+p {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+}
+
+.images img {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+img.one {
+  width: 30%;
+}
+
+img.two {
+  width: 30%;
+}
+
+.images p {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.balloons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  padding-left: 35%;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(145, 188, 143);
+}
