@@ -52,8 +52,8 @@ a {
   color: rgb(145, 188, 143);
 }
 
-@media only screen and (max-width: 585px) {
+@media only screen and (max-width: 500px) {
   a {
-    padding-left: 2%;
+    padding-left: 32%;
   }
 }
